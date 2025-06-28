@@ -12,8 +12,8 @@ build_requires: list[str] = [
 test_requires: list[str] = [
     "pylint",
     "pytest",
-    "pytest-cov",
     "mypy",
+    "ruff",
     # types
 ]
 requires = install_requires + build_requires + test_requires
